@@ -119,11 +119,12 @@
         
         $(function() {
           var myMap = new MapsLib({
-            fusionTableId:      "1m4Ez9xyTGfY2CU6O-UgEcPzlS0rnzLU93e4Faa0",
-            googleApiKey:       "AIzaSyA3FQFrNr5W2OEVmuENqhb2MBB2JabdaOY",
-            locationColumn:     "geometry",
-            map_center:         [41.8781136, -87.66677856445312],
+            fusionTableId:      "1tpvQ5ajTvYowYJje1lOAihWewJ5ii3Vxpmy7BRI_",
+            googleApiKey:       "AIzaSyDbujoTH46SokwWi0T-3hp1HjMPvqhqEJc",
+            locationColumn:     "latitude",
+            map_center:         [37.331741, -80.811], 
             locationScope:      "chicago"
+            defaultZoom:        7
           });
 
           var autocomplete = new google.maps.places.Autocomplete(document.getElementById('search_address'));
